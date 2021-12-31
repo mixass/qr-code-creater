@@ -1,0 +1,16 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+
+      <center>
+        <title>Testing QR code</title>
+        <input type="text" id="qrcode" placeholder="url" autocomplete="off">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+      <button onclick="generateQRCode()">Click me</button><br><br>
+      <img id='barcode' src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=150x150" alt="" width="150" height="150" />
+    </body>
+  </center>
+</html>
